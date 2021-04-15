@@ -1,0 +1,32 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+        <!--SFTPFileDownload, SFTPFileUpLoad Icon-->
+    <DrawingGroup x:Key="SFTPDownloadc39723d67fa84c919ba97dfac901cac8_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,1024,1024" />
+      </DrawingGroup.ClipGeometry>
+      <ImageDrawing Rect="0.063997533470797,0.063997533470797,1023.87200493306,1023.87200493306">
+        <ImageDrawing.ImageSource>
+          <BitmapImage CreateOptions="PreservePixelFormat" />
+        </ImageDrawing.ImageSource>
+      </ImageDrawing>
+    </DrawingGroup>
+    <DrawingBrush x:Key="SFTPFileDownloadIcon" Drawing="{StaticResource SFTPDownloadc39723d67fa84c919ba97dfac901cac8_0}" />
+    <DrawingBrush x:Key="SFTPFileUpLoadIcon" Drawing="{StaticResource SFTPDownloadc39723d67fa84c919ba97dfac901cac8_0}" />
+
+    <!--SFTPDelete Icon-->
+    <DrawingGroup x:Key="SFTPDelete8d998fbb2a1a45e08ee3662405f02b56_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,1024,1024" />
+      </DrawingGroup.ClipGeometry>
+      <ImageDrawing Rect="0.063997533470797,0.063997533470797,1023.87200493306,1023.87200493306">
+        <ImageDrawing.ImageSource>
+          <BitmapImage CreateOptions="PreservePixelFormat" />
+        </ImageDrawing.ImageSource>
+      </ImageDrawing>
+    </DrawingGroup>
+    <DrawingBrush x:Key="SFTPDeleteIcon" Drawing="{StaticResource SFTPDelete8d998fbb2a1a45e08ee3662405f02b56_0}" />
+
+
+</ResourceDictionary>
